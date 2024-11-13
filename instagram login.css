@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3e8f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: rgba(236, 239, 240, 0.91);
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.919);
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
+}
+h1{
+    text-align: center;
+    /* font-family: "Dancing Script", cursive; */
+    /* font-optical-sizing: auto; */
+    /* font-weight: weight; */
+    font-size: 10px;
+    width: 10px;
+    height: 20px;
+    padding: 10px;
+
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #010311a2;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+.radio-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #08caec;
+    border: none;
+    border-radius: 4px;
+    color: rgb(235, 240, 240);
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #11a8df;
+}
+
+.input-group a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.input-group a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+.box{
+    background-color: #ffffff;
+    width: 350px;
+    height: 450px;
+    padding: 10px;
+    text-align: center
+}
+.box2{
+    background-color: #ffffff;
+    width: 350px;
+    height: 30px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 30px;
+}
+.fb-login{
+    margin-bottom: 20px;
+}

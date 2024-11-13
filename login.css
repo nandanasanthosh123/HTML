@@ -1,0 +1,14 @@
+body{
+    background-image: url(/marguerite-729510_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 480px;
+}
+
+.box{
+    background-color:brown ;
+    width: 150px;
+    height: 100px;
+   
+}
